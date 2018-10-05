@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/joy_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/surprised_image"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/joy" />
+
+    <ImageButton
+        android:id="@+id/love_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/fear_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/joy_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/love" />
+
+    <ImageButton
+        android:id="@+id/surprised_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/angry_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/surprised" />
+
+    <ImageButton
+        android:id="@+id/fear_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/sad_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/surprised_image"
+        app:srcCompat="@drawable/fear" />
+
+    <ImageButton
+        android:id="@+id/angry_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/angry"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <ImageButton
+        android:id="@+id/sad_image"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/angry_image"
+        app:srcCompat="@drawable/sad"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="521dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/return_button"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</android.support.constraint.ConstraintLayout>

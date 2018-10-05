@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_main"
+        android:onClick="displayEntry"
+        android:title="@string/nav_enter" />
+
+
+    <item
+        android:id="@+id/nav_history"
+        android:onClick="displayHist"
+        android:title="@string/nav_hist" />
+
+    <item
+        android:id="@+id/nav_count"
+        android:onClick="displayCount"
+        android:title="@string/nav_counting" />
+
+
+
+
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FeelsBook</string>
+    <string name="main_add_emotion">Choose an Emotion</string>
+    <string name="add_comment">Enter a comment up to 100 characters (optional)</string>
+    <string name="add_to_log">Add Emotion to Log</string>
+    <string name="choosing_emotion_add_button">Add Emotion</string>
+    <string name="return_button">Return to main page</string>
+    <string name="history">History</string>
+    <string name="nav_hist">History</string>
+    <string name="nav_counting">Count</string>
+    <string name="nav_enter">Log new emotion</string>
+    <string name="title_activity_list_history">list_history</string>
+    <string-array name="emotions_dropdown">
+        <item>Joy</item>
+        <item>Love</item>
+        <item>Surprised</item>
+        <item>Fear</item>
+        <item>Anger</item>
+        <item>Sadness</item>
+    </string-array>
+    <string name="edit_choose_emotion">Choose a new Emotion</string>
+    <string name="edit_choose_date">Choose a new date</string>
+    <string name="edit_new_comment">Enter new comment</string>
+    <string name="edit_time_picker">Choose a date</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_delete">Delete</string>
+</resources>
